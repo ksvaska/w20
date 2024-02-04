@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title">
+      <div><img src="assets/icons/sw.svg" alt="starwars" id="sw" /></div>
+      <h1>Что будем искать?</h1>
+    </div>
+    <form class="form">
+      <select name="starwars" id="item">
+        <option value="people">Люди</option>
+        <option value="planets">Планеты</option>
+        <option value="starships">Звездолет</option>
+      </select>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        placeholder="Введите число"
+      />
+    </form>
+    <button class="btn">Искать</button>
+    <div class="info"></div>
+    <script src="w20.js"></script>
+  </body>
+</html>

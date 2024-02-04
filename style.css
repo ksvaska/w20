@@ -1,0 +1,50 @@
+#sw{
+    width: 150px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+
+}
+body{
+    text-align: center;
+    background-image: url('/assets/image/sw.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.form{
+    margin: 50px;
+}
+#item{
+    width: 200px;
+    height: 50px;
+    
+}
+#number{
+    width: 200px;
+    height: 47px;
+    padding: 0;   
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(15, 40, 88);
+    border: none;
+    color: aliceblue;
+}
+h1{
+    color: rgb(248, 247, 249);
+    text-decoration:overline;
+}
+ .info_error{
+    color: rgb(210, 34, 34);
+    margin: 50px;
+    font-size: 20px;
+ }
+
+ .info_text{
+    color:aliceblue;
+    margin: 50px;
+    font-size: 40px;
+ }
